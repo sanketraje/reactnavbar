@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  background-color: rgb(12, 12, 12);
+  color: #fff;
+}
+
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.navstyle{
+  text-decoration: none;
+  background-color: rgb(150, 161, 161);
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.back{
+  /* background-image: url('back.jpeg'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  height: 584px;
+}
+
+h1{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+.column {
+  float: center;
+  width: 25%;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.card {
+  border-radius: 1em;
+  margin-top: 30px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+  width: 300px;
+  color: #fff;
+}
+
+p{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#home{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  color: azure;
+}
+
+
+
